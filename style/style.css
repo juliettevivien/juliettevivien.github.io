@@ -1,0 +1,39 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #d2c5cc;
+  margin: 2rem;
+}
+
+main {
+  padding: 20px;
+}
+
+
+header,
+footer {
+  background-color: rgb(178, 141, 189);
+  padding: 20px 50px;
+}
+
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+    justify-content: center;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+
+.logo-img {
+    height: 2vw; 
+    margin: 1rem 2vw 0.5rem 2vw;
+}
