@@ -37,3 +37,21 @@ nav a {
     height: 2vw; 
     margin: 1rem 2vw 0.5rem 2vw;
 }
+
+
+.event {
+  display: flex;
+  align-items: center;       /* vertical alignment */
+  gap: 2rem;                 /* space between image & text */
+  margin-bottom: 3rem;
+}
+
+.event-image img {
+  width: 200px;              /* or whatever fits your design */
+  height: auto;
+  border-radius: 8px;        /* optional, looks nice */
+}
+
+.event-content {
+  max-width: 600px;
+}
