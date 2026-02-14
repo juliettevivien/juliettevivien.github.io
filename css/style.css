@@ -46,12 +46,19 @@ nav a {
   margin-bottom: 3rem;
 }
 
-.event-image img {
-  width: 200px;              /* or whatever fits your design */
-  height: auto;
-  border-radius: 8px;        /* optional, looks nice */
-}
 
 .event-content {
   max-width: 600px;
+}
+
+.event-image {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.event-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
 }
